@@ -1,6 +1,5 @@
 name: 02 - Workflows Event
 on:
-    push:
     pull_request:
     workflow_dispatch:
 
