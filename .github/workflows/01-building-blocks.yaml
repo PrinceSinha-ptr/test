@@ -10,10 +10,10 @@ jobs:
     echo-bye:
         runs-on: ubuntu-latest
         steps:
-            - name: Fail
+            - name: Success
               run : |
-                 echo "Fail to execute"
-                 exit 1
+                 echo "Successfully executed"
+                 exit 0
             - name: Bye
               run: echo "End"
    
