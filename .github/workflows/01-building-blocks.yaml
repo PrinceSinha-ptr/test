@@ -1,0 +1,23 @@
+name: 01-Buliding-Blocks #Name of workflows
+on: push #Trigger of the workflow
+
+jobs: 
+    echo-hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name : Hello
+              run : echo "Hello!"
+    echo-bye:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Fail
+              run : |
+                 echo "Fail to execute"
+                 exit 1
+            - name: Bye
+              run: echo "End"
+   
+
+
+
+
