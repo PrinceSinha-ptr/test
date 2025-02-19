@@ -1,5 +1,6 @@
 name: 01-Buliding-Blocks #Name of workflows
-on: push #Trigger of the workflow
+on: 
+  workflow_dispatch: #Trigger of the workflow
 
 jobs: 
     echo-hello:
